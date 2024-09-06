@@ -9,7 +9,7 @@ from telebot.handler_backends import StatesGroup, State
 TOKEN: str  =  "7500595361:AAE9PbI6fZ4gX81alp2p8fAVAur_zoeJU0M"
 
 
-channel: list[str] = ['@lovemckIR' , '@rednews2022' , '@TNT2024TNT' ,'@iran_russ2024' ,'@niazmndiha_2024_rus']
+channel = ['@lovemckIR' , '@rednews2022' , '@TNT2024TNT' ,'@iran_russ2024' ,'@niazmndiha_2024_rus']
 
 
 
