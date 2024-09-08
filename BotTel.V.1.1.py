@@ -9,7 +9,7 @@ from telebot.handler_backends import StatesGroup, State
 TOKEN: str  =  "7500595361:AAE9PbI6fZ4gX81alp2p8fAVAur_zoeJU0M"
 
 
-channel = ['@lovemckIR' , '@rednews2022' , '@TNT2024TNT' ,'@iran_russ2024' ,'@niazmndiha_2024_rus']
+channel = ['@lovemckIR' , '@rednews2022' , '@TNT2024TNT' ,'@iran_russ2024','@russie_tuday2024' ,'@niazmndiha_2024_rus']
 
 
 
@@ -33,13 +33,14 @@ inbutton1 = InlineKeyboardButton(text="🔹چنل اول ما🔹", url="https:/
 inbutton2 = InlineKeyboardButton(text="🔹چنل دوم ما🔹", url="https://t.me/rednews2022")
 inbutton3 = InlineKeyboardButton(text="🔹چنل سوم ما🔹", url="https://t.me/TNT2024TNT")
 inbutton4 = InlineKeyboardButton(text="🔹چنل چهارم ما🔹", url="https://t.me/iran_russ2024")
-inbutton5 = InlineKeyboardButton(text="🔹چنل آگهی ما🔹", url="https://t.me/niazmndiha_2024_rus")
-inbutton6 = InlineKeyboardButton(text="🔹بررسی عضویت🔹", callback_data="join")
+inbutton5 = InlineKeyboardButton(text="🔹چنل پنجم ما🔹", url="https://t.me/russie_tuday2024")
+inbutton6 = InlineKeyboardButton(text="🔹چنل آگهی ما🔹", url="https://t.me/niazmndiha_2024_rus")
+inbutton7 = InlineKeyboardButton(text="🔹بررسی عضویت🔹", callback_data="join")
 markup1 = InlineKeyboardMarkup(row_width=1)
-markup1.add(inbutton1, inbutton2, inbutton3, inbutton4, inbutton5,inbutton6)
+markup1.add(inbutton1, inbutton2, inbutton3, inbutton4, inbutton5,inbutton6,inbutton7)
 
 markchnnl = InlineKeyboardMarkup(row_width=1)
-markchnnl.add(inbutton1, inbutton2, inbutton3, inbutton4, inbutton5)
+markchnnl.add(inbutton1, inbutton2, inbutton3, inbutton4, inbutton5,inbutton6)
 
 # options
 button1 = KeyboardButton(text="ثبت آگهی 📮")
